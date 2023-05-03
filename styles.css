@@ -1,0 +1,50 @@
+/* Variables */
+/* Styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+}
+
+.container textarea {
+  height: 80%;
+}
+
+.input, .output {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+#svg-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+#svg-output {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  fill: #007bff;
+}
+/*# sourceMappingURL=styles.css.map */
